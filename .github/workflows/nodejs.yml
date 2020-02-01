@@ -1,0 +1,25 @@
+name:#💯% Node.js CI github workflows complite 
+
+https://github.com/https-github-com-ruzyysmartt/readthedocs.org.git
+on: [push] npm yml operasional system workflows github.com
+
+jobs:operational system readthedocs (finalist)
+  build:github.com-ruzyysmartt
+
+    runs-on: ubuntu-latest/nodesjs script reposentory 
+
+    strategy:stabil and complite to operation workflows
+      matrix:nodes js web3
+        node-version: [8.x, 10.x, 12.x] =version 1.0 upgrade 
+          - nodesjs webjs3
+    steps: final (suksess and complite operational system
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:ruzyysmartt readthedocs webjs3
+        node-version: ${{ matrix.node-version }}
+    - run: npm install operational system readthedocs
+    - run: npm run build --if-present to custom for ruzyysmartt
+    - run: npm test system operational workflows
+      env:suksess and complite
+        CI: true
