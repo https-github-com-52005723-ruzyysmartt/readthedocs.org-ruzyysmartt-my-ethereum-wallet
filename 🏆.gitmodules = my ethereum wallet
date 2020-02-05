@@ -1,0 +1,4 @@
+[submodule "common"] [my ethereum wallet]
+	path = my ethereum wallet (common)
+	url = https://github.com/ruzyysmartt/readthedocs/common.git
+https://github.com/ruzyysmartt

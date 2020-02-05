@@ -1,0 +1,43 @@
+language: python
+python:
+  - 3.6
+dist: xenial
+
+jobs: my ethereum wallet
+  include: github.com ruzyysmartt
+    - python: 3.6
+      env: TOXENV=py36,codecov ES_VERSION=6.2.4 ES_DOWNLOAD_URL=https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-${ES_VERSION}.tar.gz
+    - python: 3.6
+      env: TOXENV=docs
+    - python: 3.6
+      env: TOXENV=docs-lint
+    - python: 3.6
+      env: TOXENV=lint
+      script: tox
+    - python: 3.6
+      env: TOXENV=eslint NODE_VERSION=10.17.0
+    - python: 3.6
+      env: TOXENV=migrations
+cache:
+  directories:
+    - ~/.cache/pip
+    - ~/.nvm/nvm.sh
+    - ~/.npm
+install:my ethereum wallet
+  - ./scripts/travis/install_elasticsearch.sh
+  - ./scripts/travis/install_node.sh
+  - pip install tox-travis
+script:my ethereum wallet
+  - ./scripts/travis/run_tests.sh
+notifications: readthedoc 
+  slack: check address my etherem wallet
+    rooms: my ethereum wallet reposentory
+      - readthedocs:y3hjODOi7EIz1JAbD1Zb41sz#random
+    on_success: change
+    on_failure: always
+
+branches: ruzyysmartt patch 1 master/ master branches
+  only:my ethereum wallet ( ruzyysmartt )
+  - master
+  - rel # Community release branch
+  - relcorp # Corporate release branch

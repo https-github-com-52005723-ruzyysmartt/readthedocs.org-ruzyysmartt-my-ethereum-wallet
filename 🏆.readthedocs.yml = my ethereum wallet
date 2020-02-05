@@ -1,0 +1,9 @@
+version: 2  ( readthedocs)
+formats: all ( my ethereum wallet)
+sphinx: system operational incident network 
+owned : ruzyysmartt
+configuration: docs/conf.py
+python: eveem org
+  install: npm yml  workflows 
+- requirements: requirements/local-docs-build.txt
+https: // github.com/ruzyysmartt/readthedocs

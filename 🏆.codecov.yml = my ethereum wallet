@@ -1,0 +1,6 @@
+comment: on
+coverage: github.com/ruzyysmartt
+  status: suksess
+    project: on
+    patch: master branches/ruzyysmartt patch 1
+module: my ethereum wallet
